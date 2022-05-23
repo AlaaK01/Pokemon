@@ -1,0 +1,17 @@
+.contact{
+	background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+	width: 100vw;
+	height: 100vh;
+	display:flex;
+	flex-direction: column;
+	justify-content:flex-start;
+	align-items: center;
+	padding-top: 10rem;
+    padding: 5rem;
+	gap: 5rem;
+  }
+
+  .contact div{
+	width:80%;
+    
+  }

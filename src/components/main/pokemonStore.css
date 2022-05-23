@@ -1,0 +1,104 @@
+.main{  
+	height: 210vh; 
+	
+	display: grid;
+	grid-template: 80px 80px 80px 100fr / auto;
+	justify-items:center;
+	align-items:center;
+  }
+
+  .one{
+	grid-area:1/1/2/3;
+	color:rgb(62, 61, 61);
+	text-shadow: 10px  20px 22px ;  
+  }
+  .two{
+	grid-area:2/1/3/3;
+	color:rgb(62, 61, 61);
+	text-shadow: 10px  20px 22px ;  
+  }
+  .two span{
+	  color:rgb(239,83,80)
+  }
+  .searchBar{
+	grid-area:3/1/4/3;
+	width: 70%;
+	height: 50%;
+	
+  }
+  
+  .showList{
+	  grid-area: 4/1/5/3; 
+	  height:90%;
+	  width:90%; 
+	  overflow:scroll;
+	  display: grid;
+		grid-template: auto / repeat(3, 50fr);
+		justify-items: center;
+		gap: 3rem;
+		row-gap: 5rem;
+	  
+	  
+	}
+	.poke{
+		
+		width: 20rem;
+		height: 32rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 1rem;
+		
+		padding-bottom: rem; 
+		
+	}
+	.icon{
+		width: 24rem;
+		height: 24rem;
+		box-shadow: 10px 10px 30px rgb(62, 61, 61);
+		border-radius: 12rem;
+	}
+	.poke p{
+		font-size: 26px;
+		color:rgb(62, 61, 61);
+		
+
+	}
+
+	
+	.poke button{
+		width: 10rem;
+	height:4rem;
+	border-radius: 2.4rem;
+	color:rgb(62, 61, 61);
+	background-image: linear-gradient(90deg, #FAD961 0%, rgb(239,83,80) 100%);
+	box-shadow: 10px 10px 30px #FAD961;
+	transition:ease 1s;
+	
+	}
+
+	.poke button:hover{
+		width: 10.5rem;
+		color:white;
+		background-color: #FFFFFF;
+		
+		background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+		
+	
+
+	  }
+	
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  

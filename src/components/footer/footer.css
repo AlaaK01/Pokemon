@@ -1,0 +1,13 @@
+
+.footer{
+	grid-area:4/1/5/3;
+	background-color:rgb(62, 61, 61);
+	width: 100vw;
+	height: 5vh;
+	display:flex;
+	flex-direction: row;
+	justify-content:space-around;
+	align-items:center;
+	color: white
+  }
+  

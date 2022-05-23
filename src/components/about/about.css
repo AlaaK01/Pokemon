@@ -1,0 +1,16 @@
+
+.about{
+	background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+	width: 100vw;
+	height: 100vh;
+	display:flex;
+	flex-direction: column;
+	justify-content:flex-start;
+	align-items: center;
+	padding-top: 10rem;
+	gap: 5rem;
+  }
+
+  .about div{
+	width:80%
+  }
